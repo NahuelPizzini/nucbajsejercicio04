@@ -15,7 +15,7 @@ const capturaInput = async () => {
  
   
    if (value > 905 && value < 10001) {
-    //  alert("ehh maestro, banca que no hay un pokemon con ese número")
+     alert("ehh maestro, banca que no hay un pokemon con ese número")
    } else if (value <= 0) {
       alert("Che, maestro, pone un número mayor a 0");
    }
